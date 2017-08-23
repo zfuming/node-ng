@@ -6,7 +6,7 @@ RUN apt-get clean -y
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         nginx && \
-    npm install angular-cli -g
+    npm install -g @angular/cli@latest
 
 EXPOSE 80
 
